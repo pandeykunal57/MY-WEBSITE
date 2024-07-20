@@ -1,0 +1,272 @@
+body {
+    background-color: rgb(252, 246, 244);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+
+}
+
+.caption {
+    color: rgb(77, 81, 84);
+    font-size: 20px;
+    font-family: kanit-medium-italic, cursive;
+}
+
+.navbar {
+    cursor: pointer;
+}
+
+.nav-item {
+    font-size: 20px;
+    font-family: kanit-medium-italic, cursive;
+
+
+}
+.nav-item:hover{
+    color: #3cf163;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    font-family: kanit-medium-italic, cursive;
+    
+}
+
+.nav-link:hover {
+    opacity: 50%;
+   
+
+}
+
+.container {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 10px;
+    max-width: 100vw;
+
+}
+
+header h1 {
+    color: #66bfbf;
+    font-size: 100px;
+    text-shadow: 2px 2px #002107;
+    margin-top: 70px;
+}
+
+header p {
+    text-shadow: 1px 2px #041e09a2;
+}
+
+
+.skills h1 {
+    text-align: center;
+    font-size: 60px;
+    color: #3cb49c;
+    text-shadow: 2px 2px #026917a2;
+    stroke-width: 10px;
+}
+
+.skill-coding {
+    margin: 40px;
+}
+
+.skill-coding:hover {
+    opacity: 40%;
+    padding: 30px;
+}
+
+.skill-html {
+    margin: 40px;
+}
+
+.skill-css {
+    margin: 40px;
+}
+
+.skill-js {
+    margin: 40px;
+}
+
+.skill-jq {
+    margin: 40px;
+}
+
+.skill-boot {
+    margin: 40px;
+}
+
+.skill-node {
+    margin: 40px;
+}
+
+.skill-rest {
+    margin: 40px;
+}
+
+.skill-express {
+    margin: 40px;
+}
+
+.skill-sql {
+    margin: 40px;
+}
+
+.skill-post {
+    margin: 40px;
+}
+
+.skill-react {
+    margin: 40px;
+}
+
+.skill-html:hover {
+    opacity: 40%;
+    padding: 30px;
+}
+
+.skill-css:hover {
+    opacity: 40%;
+    padding: 30px;
+}
+
+.skill-js:hover {
+    opacity: 40%;
+    padding: 30px;
+}
+
+.skill-jq:hover {
+    opacity: 40%;
+    padding: 30px;
+}
+
+.skill-boot:hover {
+    opacity: 40%;
+    padding: 30px;
+}
+
+.skill-node:hover {
+    opacity: 40%;
+    padding: 30px;
+}
+
+.skill-rest:hover {
+    opacity: 40%;
+    padding: 30px;
+}
+
+.skill-express:hover {
+    opacity: 40%;
+    padding: 30px;
+}
+
+.skill-sql:hover {
+    opacity: 40%;
+    padding: 30px;
+}
+
+.skill-post:hover {
+    opacity: 40%;
+    padding: 30px;
+}
+
+.skill-react:hover {
+    opacity: 40%;
+    padding: 30px;
+
+}
+
+.coding {
+
+    width: 250px;
+    height: 250px;
+    border-radius: 1000px;
+    object-fit: scale-down;
+
+}
+
+span {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+
+header {
+    background-color: #e4f9f5;
+    padding: 20px;
+    text-align: center;
+    ;
+
+}
+
+h1 {
+    font-size: 90px;
+    margin-bottom: 10px;
+    color: #3cb49c;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+
+}
+
+#about {
+    color: #3cb49c;
+
+    padding: 50px;
+}
+
+
+
+
+
+#contact {
+
+    background-color: #e4f9f5;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+.kanit-medium-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+.carousel-caption {
+    opacity: 70%;
+
+    bottom: 50px;
+    /* adjust the value to change the distance from the bottom */
+
+    text-align: center;
+    background-color: rgba(4, 4, 4, 0.5);
+    color: #fff;
+    padding: 20px;
+}
+
+.car-container {
+    width: 1300px;
+    height: 200px;
+}
