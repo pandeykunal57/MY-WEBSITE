@@ -24,25 +24,33 @@ body {
 
 
 }
-.nav-item:hover{
+
+.nav-item:hover {
     color: #3cf163;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 30px;
     font-family: kanit-medium-italic, cursive;
-    
+
 }
 
 .nav-link:hover {
     opacity: 50%;
-   
+
 
 }
-.navbar-toggler{
+
+.navbar-toggler {
     font-size: 25px;
     background-color: #59ac6b;
     box-shadow: #04AA6D;
+}
+
+#offcanvasDarkNavbarLabel {
+    font-size: 40px;
+    text-justify: center;
+    text-shadow: #696969a2;
 }
 
 .container {
@@ -277,19 +285,22 @@ button:hover {
     width: 1300px;
     height: 200px;
 }
-.project_container{
+
+.project_container {
     padding: 50px;
-    
-   
+
+
 
 }
 
-.project{
+.project {
     padding: 20px;
-    
+
 }
-.project h2{
-    font-family:sans-serif,cursive;;
+
+.project h2 {
+    font-family: sans-serif, cursive;
+    ;
     font-size: 45px;
     color: #146b6e;
     text-shadow: 1px 1px rgb(25, 34, 25);
@@ -297,28 +308,29 @@ button:hover {
 }
 
 .project a {
-     
-        background-color: #04AA6D; /* Green */
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display:inline-block    ;     
-        font-size: 16px;
-        border-radius: 15px;
-        justify-self: end;
-        font-weight: bold;
-        
-      
-}
-.project a:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
 
-  .project p {
+    background-color: #04AA6D;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    justify-self: end;
+    font-weight: bold;
+
+
+}
+
+.project a:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project p {
     font-size: 20px;
     margin-right: 250px;
     padding: 10px;
-  }
-
+}
