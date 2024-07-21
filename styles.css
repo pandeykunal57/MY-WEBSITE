@@ -435,7 +435,7 @@ button:hover {
     padding: 10px;
 }
 .contact p{
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 250px;
     padding: 10px;
     font-weight: bold;
@@ -453,6 +453,7 @@ button:hover {
     border-radius: 15px;
     justify-self: end;
     font-weight: bold;
+    margin-top: 10px;
     
 }
 .contact a:hover{
